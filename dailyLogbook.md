@@ -1,4 +1,4 @@
-# Daily Logbook for FirstName LastName
+# Daily Logbook for Zara Zong
 
 ## Date: Topic(s) of the day
 
