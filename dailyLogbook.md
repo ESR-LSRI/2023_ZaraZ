@@ -10,7 +10,7 @@ I was initially confused on how this paper helps me with understanding how to us
 
 This is important as monitoring the temperature changes of Mt. Baker is a significant part of our research question, so ensuring that the data we gather from the sensors are accurate is of the utmost importance.
 
-Next steps: read the abstracts of the two other papers provided and understand their significance to our research.
+Next steps: read the abstracts of the two other papers provided and understand their significance to our research. I am especially interested in the snow one.
 
 ___________________________________________________________________________________________________________
 
