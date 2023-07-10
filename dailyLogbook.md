@@ -1,7 +1,7 @@
 # Daily Logbook for Zara Z
 ___________________________________________________________________________________________________________
 
-## 10 July 2023: Learning how to read papers, and the stuff I learned from one particular paper
+## 10 July 2023: Learning how to read papers, and the stuff I learned from one [particular paper]
 
 Going into this I didn't have much background knowledge on meterology/glaciology/oceanography, so I found some of the papers a difficult read due to the terminology used and the fancy language :D. It looks more complicated than it actually is, so I know that as long as I can put what I learned into my own words it makes more sense.
 
@@ -11,6 +11,8 @@ I was initially confused on how this paper helps me with understanding how to us
 This is important as monitoring the temperature changes of Mt. Baker is a significant part of our research question, so ensuring that the data we gather from the sensors are accurate is of the utmost importance.
 
 Next steps: read the abstracts of the two other papers provided and understand their significance to our research. I am especially interested in the snow one.
+
+[particular paper]: # (great work identifying your gaps in knowledge and what you need to do to fill them.)
 
 ___________________________________________________________________________________________________________
 
