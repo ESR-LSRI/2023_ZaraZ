@@ -1,7 +1,7 @@
 # Daily Logbook for Zara Z
 ___________________________________________________________________________________________________________
 
-## 10 July 2023: Learning how to read papers, and the stuff I learned from one [particular paper]
+## 10 July 2023: Learning how to read papers, and the stuff I learned from one [particular paper](docs/references/Lundquist_Huggett_Tintrees_2008WR006979.pdf)
 
 Going into this I didn't have much background knowledge on meterology/glaciology/oceanography, so I found some of the papers a difficult read due to the terminology used and the fancy language :D. It looks more complicated than it actually is, so I know that as long as I can put what I learned into my own words it makes more sense.
 
