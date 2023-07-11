@@ -1,7 +1,27 @@
 # Daily Logbook for Zara Z
 ___________________________________________________________________________________________________________
 
-## 10 July 2023: Learning how to read papers, and the stuff I learned from one [particular paper](https://github.com/ESR-LSRI/MtBakerClimate/blob/main/docs/references/Lundquist_Huggett_Tintrees_2008WR006979.pdf)
+## 11 July: Understanding [Paper about snow cover](https://github.com/ESR-LSRI/MtBakerClimate/blob/main/docs/references/Lundquist_Lott_Tsnow_2008WR007035.pdf), introduction to research questions
+
+### Understanding "Using inexpensive temperature sensors to monitor the duration and heterogeneity of snow-covered areas"
+Near-surface soil usually experience diurnal (read: daytime) temperature changes, but not when it is covered by a layer of snow (serves as insulator, and sends infrared light back to space). Thus, sensors placed in near-surface soil can indirectly measure snow cover using temperature data by analyzing the time elapsed between periods of diurnal temperature changes combined with air temperature record and snow melt data.
+
+### RQ 1: What is the lapse rate (how temperature changes with height) on Mt. Baker? How does this change with season? (Felicity interested in this one
+* 5 years of data from iButtons to work with
+* Many factors affect lapse rate, such as moisture and cloud cover
+* the lapse rate we calculate would be empirical and can be compared with the theoretical lapse rate derived by ERA5 (some kind of model)
+* Q: if our results are inconsistent with that of ERA5, which do we trust?
+
+### RQ 2: What is the seasonal snow extent on Mt. Baker? Has this changed over the instrument record? (interest here)
+* snow cover paper relevant
+* data lacking for the south side of Mt Baker
+* can indirectly measure snow cover via near-surface soil temperatures --- 0 degrees Celsius or below indicate that there is snow cover (when ground warming the snow and melted snow cooling the ground reach an equilibrium?)
+* Tanvi's data visualization showing days with snow cover by elevation for 1 year
+* **next steps:** visualization of # snow cover days vs elevation over the course of 5 years --> see if there is any sort of trend.
+
+___________________________________________________________________________________________________________
+
+## 10 July: Learning how to read papers, and the stuff I learned from one [particular paper](https://github.com/ESR-LSRI/MtBakerClimate/blob/main/docs/references/Lundquist_Huggett_Tintrees_2008WR006979.pdf)
 
 Going into this I didn't have much background knowledge on meterology/glaciology/oceanography, so I found some of the papers a difficult read due to the terminology used and the fancy language :D. It looks more complicated than it actually is, so I know that as long as I can put what I learned into my own words it makes more sense.
 
