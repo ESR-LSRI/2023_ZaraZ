@@ -24,6 +24,7 @@ Near-surface soil usually experience diurnal (read: daytime) temperature changes
     * date of snowfall onset? **next steps: define onset (search up standard/commonly-accepted definition)**
     * date of snowmelt? **same as above**
 * **Q: How do I figure out which sensors are relevant for this question as well as their elevation?**
+  * **next steps: check logbooks**
 
 ### RQ 3: How sunny is it at Schrieber's Meadow (the lowest instrument site)? Has this changed over the instrument record? (Noah or Kaiden)
 ### RQ 4: What is the seasonal snow depth at Schrieber's Meadow in 2021-2022? (Noah or Kaiden)
