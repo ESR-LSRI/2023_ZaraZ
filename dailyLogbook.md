@@ -17,7 +17,7 @@ Near-surface soil usually experience diurnal (read: daytime) temperature changes
 * data lacking for the south side of Mt Baker
 * can indirectly measure snow cover via near-surface soil temperatures --- 0 degrees Celsius or below indicate that there is snow cover (when ground warming the snow and melted snow cooling the ground reach an equilibrium?)
 * the snow cover days we observe can be compared with data from ERA5
-* **next steps: visualization of # snow cover days vs elevation over the course of 5 years**
+* **next steps: visualization of snow cover duration vs elevation over the course of 5 years**
   * [Tanvi's data visualization showing snow cover duration by elevation for 1 year](https://resources.finalsite.net/images/f_auto,q_auto/v1595276787/lakeside/pcvib3itvln0ceohblhw/FIg2_tanvi.png)
   * scatter plot, each color representing one winter --> see if there's any trend
   * Q: Over the course of 5 years, has there been a change in snow cover duration on the south side of Mt Baker? (3 graphs? 1 graph?)
