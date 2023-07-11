@@ -6,18 +6,21 @@ ________________________________________________________________________________
 ### Understanding "Using inexpensive temperature sensors to monitor the duration and heterogeneity of snow-covered areas"
 Near-surface soil usually experience diurnal (read: daytime) temperature changes, but not when it is covered by a layer of snow (serves as insulator, and sends infrared light back to space). Thus, sensors placed in near-surface soil can indirectly measure snow cover using temperature data by analyzing the time elapsed between periods of diurnal temperature changes combined with air temperature record and snow melt data.
 
-### RQ 1: What is the lapse rate (how temperature changes with height) on Mt. Baker? How does this change with season? (Felicity interested in this one
+### RQ 1: What is the lapse rate (how temperature changes with height) on Mt. Baker? How does this change with season? (Felicity indicated interest)
 * 5 years of data from iButtons to work with
 * Many factors affect lapse rate, such as moisture and cloud cover
 * the lapse rate we calculate would be empirical and can be compared with the theoretical lapse rate derived by ERA5 (some kind of model)
 * Q: if our results are inconsistent with that of ERA5, which do we trust?
 
-### RQ 2: What is the seasonal snow extent on Mt. Baker? Has this changed over the instrument record? (interest here)
+### RQ 2: What is the seasonal snow extent on Mt. Baker? Has this changed over the instrument record? (my interest here)
 * snow cover paper relevant
 * data lacking for the south side of Mt Baker
 * can indirectly measure snow cover via near-surface soil temperatures --- 0 degrees Celsius or below indicate that there is snow cover (when ground warming the snow and melted snow cooling the ground reach an equilibrium?)
 * [Tanvi's data visualization showing days with snow cover by elevation for 1 year](https://resources.finalsite.net/images/f_auto,q_auto/v1595276787/lakeside/pcvib3itvln0ceohblhw/FIg2_tanvi.png)
 * **next steps:** visualization of # snow cover days vs elevation over the course of 5 years --> see if there is any sort of trend. Multi-line graph, each line representing one winter
+
+### RQ 3: How sunny is it at Schrieber's Meadow (the lowest instrument site)? Has this changed over the instrument record? (Noah or Kaiden)
+### RQ 4: What is the seasonal snow depth at Schrieber's Meadow in 2021-2022? (Noah or Kaiden)
 
 ___________________________________________________________________________________________________________
 
