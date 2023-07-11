@@ -18,7 +18,7 @@ Near-surface soil usually experience diurnal (read: daytime) temperature changes
 * can indirectly measure snow cover via near-surface soil temperatures --- 0 degrees Celsius or below indicate that there is snow cover (when ground warming the snow and melted snow cooling the ground reach an equilibrium?)
 * **next steps:** visualization of # snow cover days vs elevation over the course of 5 years
   * [Tanvi's data visualization showing days with snow cover by elevation for 1 year](https://resources.finalsite.net/images/f_auto,q_auto/v1595276787/lakeside/pcvib3itvln0ceohblhw/FIg2_tanvi.png)
-  * see if there is any sort of trend. Multi-line graph, each line representing one winter
+  * Multi-line graph, each line representing one winter --> see if there's any trend
 
 ### RQ 3: How sunny is it at Schrieber's Meadow (the lowest instrument site)? Has this changed over the instrument record? (Noah or Kaiden)
 ### RQ 4: What is the seasonal snow depth at Schrieber's Meadow in 2021-2022? (Noah or Kaiden)
