@@ -5,7 +5,7 @@ ________________________________________________________________________________
 
 Going into this I didn't have much background knowledge on meterology/glaciology/oceanography, so I found some of the papers a difficult read due to the terminology used and the fancy language :D. It looks more complicated than it actually is, so I know that as long as I can put what I learned into my own words it makes more sense.
 
-### Understanding "Evergreen trees as inexpensive radiation shields for temperature sensors"
+### Understanding "[Evergreen trees as inexpensive radiation shields for temperature sensors](https://github.com/ESR-LSRI/MtBakerClimate/blob/main/docs/references/Lundquist_Huggett_Tintrees_2008WR006979.pdf)"
 I was initially confused on how this paper helps me with understanding how to use data from the sensors, because I expected more like an instruction sheet. After conferring with Dr. Town, I understood that the paper is actually addressing how putting the sensors under Evergreen trees helps us monitor the temperature without the influence of the sun's radiation, and that Evergreen trees serve as a good enough radiation shield. 
 
 This is important as monitoring the temperature changes of Mt. Baker is a significant part of our research question, so ensuring that the data we gather from the sensors are accurate is of the utmost importance.
