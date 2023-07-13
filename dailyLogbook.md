@@ -30,6 +30,7 @@ The iButton sensors were not installed in consistent locations from year to year
 * **next steps: finish Logbooks Version 2**
 * **collection notes are made by the group of the *following year*, upon retrieving the sensors installed in the *current year* of the logbook!!!**
   * **next steps: go back and re-evaluate location/installation assumptions**
+* **there is some confusion for 2020 iButtons 1 & 3; 2021 group reported finding 3 in 1's spot and 1 in 3's spot**
 
 Additional notes:
 * would be great to have one place for all of our files
