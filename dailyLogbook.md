@@ -5,22 +5,35 @@ ________________________________________________________________________________
 Group is working together to organize our data into better formats (plotting a map, transcribing to Google Sheets)
 
 ### Group to-do list
-* Finish logbook v2 (today)
+* ~Finish logbook v2~
+  * ~separate pages for each year~
 * verify iButton table 
-* lat/long conversion (if time, today)
+* ~lat/long conversion (if time, today)~
+  * **next step: location consistency between coords**
 * plotted maps for each year
 * updating notes + assumptions file
   * turn into markdown file
 * import function for iButtons
   * convert time values to "datetime"
+* finding altitude from lat/long
+
+### Lat/long consistency
+* latitude/longitude conversion: there is bound to be some discrepancy when converting between the different formats
+* **Q: what is the threshold we set for identifying whether two lat/long measurements are actually refering to the same location?**
+  * might just have to use best judgement and check logbook for site number
+  * can average the lat/long coords
+* we have converted all coords to **degree-minute-second format**
+  * **next step: location consistency (see question)**
+
+### Finding altitude from lat/long
+* We're doing this manually via Google Maps --> not efficient and prone to human error
+* **some altitudes we found via Google Maps are inconsistent with what was recorded in the logbooks**
+  * inconsistencies highlighted in red in the spreadsheet
 
 ### Things to investigate
 * when the 2021 group collected the 2020 sensors, they reported finding sensor 1 in 3's spot and 3 in 1's spot
   * **next steps: we can identify what happened when analyzing the data later, because one was supposed to be buried and the other on a tree and shaded**
-* latitude/longitude conversion: there is bound to be some discrepancy when converting between the different formats
-  * **Q: what is the threshold we set for identifying whether two lat/long measurements are actually refering to the same location?**
-    * might just have to use best judgement and check logbook for site number
-  * can average the lat/long coords
+
 ___________________________________________________________________________________________________________
 
 ## 12 July: Data munging and logbooks
