@@ -1,6 +1,28 @@
 # Daily Logbook for Zara Z
-
 ___________________________________________________________________________________________________________
+## 13 July: Data munging and logbooks (continued)
+
+Group is working together to organize our data into better formats (plotting a map, transcribing to Google Sheets)
+
+### Group to-do list
+* Finish logbook v2 (today)
+* verify iButton table 
+* lat/long conversion (if time, today)
+* plotted maps for each year
+* updating notes + assumptions file
+  * turn into markdown file
+* import function for iButtons
+  * convert time values to "datetime"
+
+### Things to investigate
+* when the 2021 group collected the 2020 sensors, they reported finding sensor 1 in 3's spot and 3 in 1's spot
+  * **next steps: we can identify what happened when analyzing the data later, because one was supposed to be buried and the other on a tree and shaded**
+* latitude/longitude conversion: there is bound to be some discrepancy when converting between the different formats
+  * **Q: what is the threshold we set for identifying whether two lat/long measurements are actually refering to the same location?**
+    * might just have to use best judgement and check logbook for site number
+  * can average the lat/long coords
+___________________________________________________________________________________________________________
+
 ## 12 July: Data munging and logbooks
 
 The iButton sensors were not installed in consistent locations from year to year between 2018-2022 --- for example, in some years sensor 3 replaced sensor 1, and we can only tell by checking the logbook.
