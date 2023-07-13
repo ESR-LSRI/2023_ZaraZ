@@ -28,7 +28,7 @@ The iButton sensors were not installed in consistent locations from year to year
   * iButtons are organized by #
   * any missing location/installation data are filled in to the best of our ability (and any assumptions/additional notes recorded)
 * **next steps: finish Logbooks Version 2**
-* **collection notes are made by the group of the *following year*, upon retrieving the sensors installed in the *current year* of the logbook!!!***
+* **collection notes are made by the group of the *following year*, upon retrieving the sensors installed in the *current year* of the logbook!!!**
 
 Additional notes:
 * would be great to have one place for all of our files
