@@ -28,6 +28,10 @@ The iButton sensors were not installed in consistent locations from year to year
   * iButtons are organized by #
   * any missing location/installation data are filled in to the best of our ability (and any assumptions/additional notes recorded)
 * **next steps: finish Logbooks Version 2**
+
+Additional notes:
+* would be great to have one place for all of our files
+* **Q: where to draw the line for reasonable vs unreasonable assumptions?**
 ___________________________________________________________________________________________________________
 
 ## 11 July: Understanding [paper about snow cover](https://github.com/ESR-LSRI/MtBakerClimate/blob/main/docs/references/Lundquist_Lott_Tsnow_2008WR007035.pdf), introduction to research questions
