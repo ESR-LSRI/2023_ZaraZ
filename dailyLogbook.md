@@ -1,26 +1,33 @@
 # Daily Logbook for Zara Z
 
-__
-## Date: Topic(s) of the day
+___________________________________________________________________________________________________________
+## 12 July: Data munging and logbooks
 
-Your daily log book should include the following contents:
-* Questions you were asking/tasks you needed to complete
-* Details on your approach to those questions/task
-* A summary of outcomes (e.g. answers, numbers, graphs, intermediate products)
-* Your next steps
-* Questions you have for your peer(s) and/or instructor(s) 
+The iButton sensors were not installed in consistent locations from year to year between 2018-2022 --- for example, in some years sensor 3 replaced sensor 1, and we can only tell by checking the logbook.
 
-*each of the topics below should contain a complete summary as detailed above*
+### Google Sheets matching locations and sensors between the years ([spreadsheet](https://docs.google.com/spreadsheets/d/1rYSfCRtbOYoHYn_85mbR3-nh_1uO19BrHjO-JNV4u0A/edit?usp=sharing))
+* columns and rows are organized by year and location respectively
+* number in individual cells represent the iButton # at the corresponding year and location
+* this can help us easily track iButton switches/changes at any particular location
 
-This is a [link](https://www.markdownguide.org/basic-syntax) markdown syntax. Thanks for learning this!
+### Plotting sensor location using My Map
+* each sensor location was marked with a pin at the long/lat indicated by the logbooks
+* pins were categorized into tree (shaded), tree (exposed), and buried
+  * My Map allows the user to select and unselect the categories, which could be very helpful if we ever want to identify just one type of sensor.
+* five maps total, one for each year
+* makes it easier to visually understand where the sensors are
+* **next steps: finish the maps**
 
-### Topic/question/task 1
-Summary of question/task
-details of approach
-summary of outcomes
-next steps
-questions
+### Keeping track of notes and assumptions ([doc](https://docs.google.com/document/d/1t3DZDcdIQ3F8V3vs7w8JFYGRBkURkfGAyaJHBlQ6oHY/edit?usp=sharing))
+* some logbooks had many pieces of missing information, such as location and installation data
+* I am able to fill in most of the missing information by refering to any notes made and/or the logbooks of the consecutive years, but **all such assumptions need to be recorded in case we later run into inconsistent data**
 
+### Logbooks "Version 2"
+* original logbooks messy and hard to keep track of
+* we are transcribing and organizing all the information into Google Sheets to make it easier to plot the map
+  * iButtons are organized by #
+  * any missing location/installation data are filled in to the best of our ability (and any assumptions/additional notes recorded)
+* **next steps: finish Logbooks Version 2**
 ___________________________________________________________________________________________________________
 
 ## 11 July: Understanding [paper about snow cover](https://github.com/ESR-LSRI/MtBakerClimate/blob/main/docs/references/Lundquist_Lott_Tsnow_2008WR007035.pdf), introduction to research questions
