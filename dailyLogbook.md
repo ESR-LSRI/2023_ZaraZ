@@ -2,14 +2,10 @@
 
 ## 14 July: Topic(s) of the day
 
-Helful website for finding altitude from lat/long: caltopo.com map
+Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) map
 
-### Topic/question/task 1
-Summary of question/task
-details of approach
-summary of outcomes
-next steps
-questions
+### Look at data for Mt. Baker temperature
+* for day hike!
 
 ___________________________________________________________________________________________________________
 
