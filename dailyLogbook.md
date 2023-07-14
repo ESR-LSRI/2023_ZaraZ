@@ -45,8 +45,9 @@ Group is working together to organize our data into better formats (plotting a m
 
 ### Things to investigate
 * when the 2021 group collected the 2020 sensors, they reported finding sensor 1 in 3's spot and 3 in 1's spot
-  * **next steps: we can identify what happened when analyzing the data later, because one was supposed to be buried and the other on a tree and shaded**
+  * **next steps: we can identify what happened when analyzing the data later, because one was supposed to be buried and the other on a tree and [shaded]**
 
+[shaded]: # (let's start concatenating and plotting the data at each level. Create a pkl and csv file for each level. Focus on the levels that you will use for your question. )
 ___________________________________________________________________________________________________________
 
 ## 12 July: Data munging and logbooks
