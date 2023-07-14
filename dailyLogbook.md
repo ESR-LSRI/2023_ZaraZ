@@ -1,11 +1,13 @@
 # Daily Logbook for Zara Z
 
-## 14 July: Topic(s) of the day
+## 14 July: Concatenating data, identifying relevant sensors for snow extent
 
 Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) map
 
 ### Look at data for Mt. Baker temperature
 * for day hike!
+
+### modifying table to include more specific data
 
 ___________________________________________________________________________________________________________
 
