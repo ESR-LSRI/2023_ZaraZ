@@ -23,6 +23,7 @@ Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) m
     * the depth for the buried category does not need to be specified for now. they are all around the same anyway and it's just one of many other variables that are hard to keep consistent
 * table should have a new column that specifies the height and depth
   * this way we do not need to hard code the list of corresponding censors, instead we can just read in from the spreadsheet
+* site 5 specifically should be separated into **west slope, east slope, and top ridge**
 * **next step: finish these modifications**
 
 ### site 5, microclimates, and additional information
