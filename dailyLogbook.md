@@ -3,12 +3,33 @@
 ## 14 July: Concatenating data, identifying relevant sensors for snow extent
 
 Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) map
+* elevation we got from Google Maps is being checked for a 2nd time by Kaiden using caltopo for the sake of consistency and accuracy.
 
 ### Look at data for Mt. Baker temperature
 * for day hike!
 
 ### modifying table to include more specific data
+* Concatenating the data across the years is helpful so that we can refer to just one file for all the data at a single location/depth/height. Can be thought of as data that we would have gotten if we had one 5-year sensor in that location
+* our tables do not currently specify the height and depth at which the sensors were buried
+  * need to make this distinction at least for **tree(exposed)** category --> the series of sensors at different heights of the snag
+    * the depth for the buried category does not need to be specified for now. they are all around the same anyway and it's just one of many other variables that are hard to keep consistent
+* table should have a new column that specifies the height and depth
+  * this way we do not need to hard code the list of corresponding censors, instead we can just read in from the spreadsheet
+* **next step: finish these modifications**
 
+### site 5, microclimates, and additional information
+* table categorizes all three site 5 sensors as **buried** and did not make the distinction between their slightly different microclimates
+* site 5 sensors were placed at west ridge (grassy), ridge top (windy), and east ridge (glacial/mars)
+  * data from these three sensors can be compared to study microclimates
+* **for research into snow extent, the sensor at buried at west ridge would probably be the best "macro-scale" representation of site 5 according to Dr. Town**
+  * all other sites of the sensors were selected to be a macro-scale representation of their respective biomes too, so the data can pick up on the differences across them
+
+## future research questions
+* what different types of microclimates are on Mt. Baker?
+* **how does snow interact differently with each microclimate?** (really interesting)
+  * the darker the surface the faster the snow melts (reflectivity)
+  * when there's a deep layer of snow it doesn't really matter, but when it begins to thin out, the rate at which the snow melts on surfaces varies greatly
+    * ex. snow melts faster on pavement than it does on grass
 ___________________________________________________________________________________________________________
 
 ## 13 July: Data munging and logbooks (continued)
