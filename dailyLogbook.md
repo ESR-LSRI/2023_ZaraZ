@@ -26,12 +26,19 @@ Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) m
   * all other sites of the sensors were selected to be a macro-scale representation of their respective biomes too, so the data can pick up on the differences across them
 * **next step: account for microclimates in the table**
 
-## future research questions
+### future research questions
 * what different types of microclimates are on Mt. Baker?
 * **how does snow interact differently with each microclimate?** (really interesting)
   * the darker the surface the faster the snow melts (reflectivity)
   * when there's a deep layer of snow it doesn't really matter, but when it begins to thin out, the rate at which the snow melts on surfaces varies greatly
     * ex. snow melts faster on pavement than it does on grass
+
+### Group tasks
+* concatenate data across the years, in an intuitive order (by site? by individual research questions?)
+  * each group member concatenates a different set of data so we have more progress
+    * I believe Noah is currently working on 2021-22 sensors #3-7 (the snag)
+    * **next step (for me): concatenate data for the buried sensors**
+ 
 ___________________________________________________________________________________________________________
 
 ## 13 July: Data munging and logbooks (continued)
