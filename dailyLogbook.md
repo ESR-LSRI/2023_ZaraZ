@@ -44,7 +44,7 @@ Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) m
 * concatenate data across the years, in an intuitive order (by site? by individual research questions?)
   * each group member concatenates a different set of data so we have more progress
     * I believe Noah is currently working on 2021-22 sensors #3-7 (the snag)
-    * **next step (for me): concatenate data for the buried sensors**
+    * **next step (for me): concatenate data for the buried sensors by elevation (from low to high)**
  
 ___________________________________________________________________________________________________________
 
