@@ -1,3 +1,4 @@
+
 # Daily Logbook for Zara Z
 
 ## 14 July: Concatenating data, identifying relevant sensors for snow extent
@@ -23,6 +24,7 @@ Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) m
   * data from these three sensors can be compared to study microclimates
 * **for research into snow extent, the sensor at buried at west ridge would probably be the best "macro-scale" representation of site 5 according to Dr. Town**
   * all other sites of the sensors were selected to be a macro-scale representation of their respective biomes too, so the data can pick up on the differences across them
+* **next step: account for microclimates in the table**
 
 ## future research questions
 * what different types of microclimates are on Mt. Baker?
