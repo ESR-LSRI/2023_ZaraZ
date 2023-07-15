@@ -24,7 +24,6 @@ Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) m
 * table should have a new column that specifies the height and depth
   * this way we do not need to hard code the list of corresponding censors, instead we can just read in from the spreadsheet
 * site 5 specifically should be separated into **west slope, east slope, and top ridge**
-* **next step: finish these modifications**
 
 ### site 5, microclimates, and additional information
 * table categorizes all three site 5 sensors as **buried** and did not make the distinction between their slightly different microclimates
