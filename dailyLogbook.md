@@ -1,7 +1,11 @@
 
 # Daily Logbook for Zara Z
 
+___________________________________________________________________________________________________________
+
 ## 14 July: Concatenating data, identifying relevant sensors for snow extent
+
+**Q: 2020 sensors 2 and 4 were snag sensors placed at different heights than any other year (163 and 190 cm respectively, compared to 50-100-150-200-230). Is this trivial enough that we can round them to 150 and 200?**
 
 Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) map
 * elevation we got from Google Maps is being checked for a 2nd time by Kaiden using caltopo for the sake of consistency and accuracy.
