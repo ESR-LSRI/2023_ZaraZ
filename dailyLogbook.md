@@ -3,14 +3,21 @@
 
 ___________________________________________________________________________________________________________
 
-## 17 July: 2023 data is here! Concatenating data (continued)
+## 17 July: Concatenating data (continued), plotting
 
-### Topic/question/task 1
-Summary of question/task
-details of approach
-summary of outcomes
-next steps
-questions
+### Plotting
+* code now works to plot a time vs temperature graph
+  * reads csv into dataframe
+  * drops irrelevant columns
+  * re-formats 'Date/Time' string into data of type datetime
+  * sets datetime as index
+  * plots graph with index for x and Value (temperature) for y
+
+### Concatenating data
+* working to create folders for each site so code can simply loop through the folder, push to group member directories
+  * site#_type_dimension format
+* **next step: concatenate data for site 1 buried**
+
 
 ___________________________________________________________________________________________________________
 
