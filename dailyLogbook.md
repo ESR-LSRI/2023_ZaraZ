@@ -3,6 +3,17 @@
 
 ___________________________________________________________________________________________________________
 
+## 17 July: Concatenating data (continued), learning about datetime
+
+### Topic/question/task 1
+Summary of question/task
+details of approach
+summary of outcomes
+next steps
+questions
+
+___________________________________________________________________________________________________________
+
 ## 14 July: Concatenating data, identifying relevant sensors for snow extent
 
 ### Problems
