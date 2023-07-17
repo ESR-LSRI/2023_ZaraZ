@@ -5,6 +5,11 @@ ________________________________________________________________________________
 
 ## 17 July: Concatenating data (continued), plotting
 
+### Figuring out 2019 sensors 9 and 10 (site 5 west slope vs ridge)
+2019 sensors 9 and 10 were given the same lat/long in the logbook with no additional site description, making it difficult to find which one was at west slope and which one at top ridge. The only way to distinguish them would be by looking at the data itself.
+
+I decided to **graph the west slope and top ridge sensors from 2018** to find any patterns that might be comparable to 2019 sensors 9 and 10. Here's what I got:
+* West Ridge: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5west_buried.png)
 ### Plotting
 * code now works to plot a time vs temperature graph
   * reads csv into dataframe
