@@ -3,7 +3,7 @@
 
 ___________________________________________________________________________________________________________
 
-## 17 July: Concatenating data (continued), learning about datetime
+## 17 July: 2023 data is here! Concatenating data (continued)
 
 ### Topic/question/task 1
 Summary of question/task
