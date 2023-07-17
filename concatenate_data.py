@@ -1,27 +1,27 @@
+#import numpy as np
+import matplotlib.pyplot as plt
 import pandas as pd
+import os as os
 
-df = pd.read_csv('iButtons_series.csv') # read iButton spreadsheet
-listSites = df['Site'].unique() # get list of sites from spreadsheet
+fileLoc = 'G:/My Drive/School/LSRI/2023_ZaraZ/data/categories/1_buried'
+fileNames = os.listdir(fileLoc)
+# colNames = [c[:-4] for f in fileNames]
+os.chdir(fileLoc)
 
-print("SITES")
-for i in listSites:
-    print(i)
+df = pd.read_csv(fileNames[0], header = 13)
 
-site = input("Select a site: ")
+# create datetime variable, set as index
+df['datetime'] = pd.to_datetime(df['Date/Time'])
+df = df.set_index('datetime')
 
-if site in listSites:
-    siteRows = df[df['Site'] == site]
-    listTypes = siteRows.loc[siteRows['Type'].notnull(), 'Type'].unique()
-    print("\nTYPES")
+# drop useless columns
+df.drop(['Unit','Date/Time'],axis = 'columns',inplace = True)
 
-    for j in listTypes:
-        print(j)
+# plot the temperature  time series
+plt.figure()
+plt.plot(df.index,df.Value)
+plt.xlabel('Time')
+plt.ylabel('Value')
 
-    type = input("Select a type: ")
-
-    if type in listTypes:
-        print("yay")
-    else:
-        print("Invalid type.")
-else:
-    print("Invalid site name.")
+#plt.figure()
+#plt.plot(df)
