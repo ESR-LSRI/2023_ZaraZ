@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os as os
 
-fileLoc = 'G:/My Drive/School/LSRI/2023_ZaraZ/data/problem'
+fileLoc = 'G:/My Drive/School/LSRI/2023_ZaraZ/data/1_buried'
 fileNames = os.listdir(fileLoc)
 # colNames = [c[:-4] for f in fileNames]
 os.chdir(fileLoc)
