@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os as os
 
-fileLoc = 'G:/My Drive/School/LSRI/2023_ZaraZ/data/categories/5ridge_buried'
+fileLoc = 'G:/My Drive/School/LSRI/2023_ZaraZ/data/problem'
 fileNames = os.listdir(fileLoc)
 # colNames = [c[:-4] for f in fileNames]
 os.chdir(fileLoc)
 
 file = fileNames[0]
 
-df = pd.read_csv(file, header = 13)
+df = pd.read_csv(file, encoding="unicode_escape", header=13)
 
 # create datetime variable, set as index
 df['datetime'] = pd.to_datetime(df['Date/Time'])
