@@ -13,6 +13,8 @@ I decided to **graph the west slope and top ridge sensors from 2018** to find an
 * Top Ridge: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5ridge_buried.png)
 
 As Dr. Town predicted, **the snow cover at top ridge went away much earlier than that at west slope**. With this information, I can graph 2019 sensors 9 and 10 in the same way and **pretty safely assume that the one with earlier snowmelt was the one at top ridge**.
+* 2019 sensor 9: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_9.png)
+* 2019 sensor 10: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_10.png)
 
 ### Plotting
 * code now works to plot a time vs temperature graph
