@@ -30,8 +30,7 @@ Now we are able to concatenate their data to the right dataframes.
 ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_1_buried.png)
 
 ### Concatenating data
-* working to create folders for each site so code can simply loop through the folder, push to group member directories
-  * site#_type_dimension format
+* ~working to create folders for each site so code can simply loop through the folder~ **done, and pushed to teammates' directories :)**
 * **next step: concatenate data for site 1 buried**
 
 ### 2023 data
