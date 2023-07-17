@@ -18,7 +18,10 @@ ________________________________________________________________________________
 * working to create folders for each site so code can simply loop through the folder, push to group member directories
   * site#_type_dimension format
 * **next step: concatenate data for site 1 buried**
-* 
+
+### 2023 data
+* java and OneWire are set up, 2023 data are ready to be read into csv files
+
 ___________________________________________________________________________________________________________
 
 ## 14 July: Concatenating data, identifying relevant sensors for snow extent
