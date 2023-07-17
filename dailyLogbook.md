@@ -6,7 +6,7 @@ ________________________________________________________________________________
 ## 14 July: Concatenating data, identifying relevant sensors for snow extent
 
 ### Problems
-* **2020 sensors 2 and 4 were snag sensors placed at different heights than any other year (163 and 190 cm respectively, compared to 50-100-150-200-230). Is this trivial enough that we can round them to 150 and 200?**
+* **2020 sensors 2 and 4 were snag sensors placed at different heights than any other year ([163 and 190] cm respectively, compared to 50-100-150-200-230). Is this trivial enough that we can round them to 150 and 200?**
 * **2019 sensors 9 and 10 were given the same coords with no additional site description, making them indistinguishable between site 5 west slope vs top ridge. Sensor 11 is assumed to be east slope only because its coords were NE of the coord given for 9 and 10**
   * the only way to tell might be through the data --> **if there was a layer of snow covering both sensors at some point, the one at top ridge likely melted/went away faster due to windier conditions**
 
@@ -40,12 +40,15 @@ Helpful website for finding altitude from lat/long: [caltopo.com](caltopo.com) m
   * when there's a deep layer of snow it doesn't really matter, but when it begins to thin out, the rate at which the snow melts on surfaces varies greatly
     * ex. snow melts faster on pavement than it does on grass
 
-### Group tasks
+### [Group tasks]
 * concatenate data across the years, in an intuitive order (by site? by individual research questions?)
   * each group member concatenates a different set of data so we have more progress
     * I believe Noah is currently working on 2021-22 sensors #3-7 (the snag)
     * **next step (for me): concatenate data for the buried sensors by elevation (from low to high)**
  
+
+ [163 and 190]: # (let's keep it as accurate as we can. The lapse rate can be sensitive near the surface.)
+[Group tasks]: # (Great logbook entries)
 ___________________________________________________________________________________________________________
 
 ## 13 July: Data munging and logbooks (continued)
