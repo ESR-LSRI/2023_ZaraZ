@@ -12,13 +12,13 @@ ________________________________________________________________________________
   * re-formats 'Date/Time' string into data of type datetime
   * sets datetime as index
   * plots graph with index for x and Value (temperature) for y
+![image](https://github.com/ESR-LSRI/2023_ZaraZ/assets/139078517/f7d2fe63-0153-40ac-9fde-8514bd7c9d5b)
 
 ### Concatenating data
 * working to create folders for each site so code can simply loop through the folder, push to group member directories
   * site#_type_dimension format
 * **next step: concatenate data for site 1 buried**
-
-
+* 
 ___________________________________________________________________________________________________________
 
 ## 14 July: Concatenating data, identifying relevant sensors for snow extent
