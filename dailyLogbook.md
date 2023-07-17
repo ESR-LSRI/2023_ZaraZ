@@ -16,6 +16,8 @@ As Dr. Town predicted, **the snow cover at top ridge went away much earlier than
 * 2019 sensor 9: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_9.png)
 * 2019 sensor 10: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_10.png)
 
+Since snow cover as indirectly measured by 2019 sensor 10 went away much earlier than that by sensor 9, I'm going to assume that **sensor 9 was at west slope and sensor 10 was at top ridge**. Problem solved :)
+
 ### Plotting
 * code now works to plot a time vs temperature graph
   * reads csv into dataframe
