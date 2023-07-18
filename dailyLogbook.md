@@ -20,6 +20,7 @@ We have:
 * blank --> temperature
 
 **I have identified the problem files, restructured the columns, and stripped them down to just the necessary data via pandas**. Code is named "restructureData.py" in my repository.
+
 **next steps: save files as .pkl, organize into correpsonding site directories**
 
 ### To-Do
