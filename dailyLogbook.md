@@ -19,7 +19,10 @@ We have:
 * "Value" --> Celsius
 * blank --> temperature
 
-**Currently working on a separate piece of code to combine the date and time columns using pandas**
+### To-Do
+* **separate piece of code to combine the date and time columns using pandas**
+* sort revised data files into site directories
+* push new directories to group repositories
 
 ___________________________________________________________________________________________________________
 
