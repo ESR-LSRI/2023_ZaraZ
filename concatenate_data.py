@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os as os
 
+# IMPORTANT: FILES ARE STRUCTURED DIFFERENTLY
+
 fileLoc = 'G:/My Drive/School/LSRI/2023_ZaraZ/data/1_buried'
 fileNames = os.listdir(fileLoc)
 # colNames = [c[:-4] for f in fileNames]
