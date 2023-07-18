@@ -7,10 +7,12 @@ ________________________________________________________________________________
 
 ### Problem with 2020 and 2021 data being in different formats than 2018 and 2019 data
 Starting from 2020, for some reason the columns of the data are structured differently. 
+
 Instead of:
 * "Date/Time" --> date & time
 * "Unit" --> Celsius all the way dowwn
 * "Value" --> temperature
+
 We have:
 * "Date/Time" --> date
 * "Unit" --> time
