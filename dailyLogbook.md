@@ -12,7 +12,9 @@ I decided to **graph the west slope and top ridge sensors from 2018** to find an
 * West Slope: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5west_buried.png)
 * Top Ridge: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5ridge_buried.png)
 
-As Dr. Town predicted, **the snow cover at top ridge went away much [earlier] than that at west slope**. With this information, I can graph 2019 sensors 9 and 10 in the same way and **pretty safely assume that the one with earlier snowmelt was the one at top ridge**.
+As Dr. Town predicted, **the snow cover at top ridge went away much [earlier] than that at west slope**. With this information, I can graph 2019 sensors 9 and 10 in the same way and **pretty safely assume that the one with earlier snowmelt was the one at top [ridge]**.
+* 2019 sensor 9: ![image](./figures/2019_mystery_9.png)
+
 * 2019 sensor 9: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_9.png)
 * 2019 sensor 10: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_10.png)
 
@@ -38,7 +40,7 @@ Now we are able to concatenate their data to the right dataframes.
 
 [earlier]: # (Ok, well I have filled my quota for being right this month. Now on to you to be right!!!)
 [java]: # (wow. thank you.)
-
+[ridge]: # (can you use relative path names for images? this way I can see the plots on my end.)
 ___________________________________________________________________________________________________________
 
 ## 14 July: Concatenating data, identifying relevant sensors for snow extent
