@@ -9,14 +9,12 @@ ________________________________________________________________________________
 2019 sensors 9 and 10 were given the same lat/long in the logbook with no additional site description, making it difficult to find which one was at west slope and which one at top ridge. The only way to distinguish them would be by looking at the data itself.
 
 I decided to **graph the west slope and top ridge sensors from 2018** to find any patterns that might be comparable to 2019 sensors 9 and 10. Here's what I got:
-* West Slope: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5west_buried.png)
-* Top Ridge: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5ridge_buried.png)
+* West Slope: ![image](./figures/2018_5west_buried.png)
+* Top Ridge: ![image](./figures/2018_5ridge_buried.png)
 
 As Dr. Town predicted, **the snow cover at top ridge went away much [earlier] than that at west slope**. With this information, I can graph 2019 sensors 9 and 10 in the same way and **pretty safely assume that the one with earlier snowmelt was the one at top [ridge]**.
 * 2019 sensor 9: ![image](./figures/2019_mystery_9.png)
-
-* 2019 sensor 9: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_9.png)
-* 2019 sensor 10: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_10.png)
+* 2019 sensor 10: ![image](./figures/2019_mystery_10.png)
 
 Since snow cover as indirectly measured by 2019 sensor 10 went away much earlier than that by sensor 9, I'm going to conclude that **sensor 9 was at west slope and sensor 10 was at top ridge**.
 
