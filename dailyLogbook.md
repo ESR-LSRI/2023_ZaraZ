@@ -5,8 +5,8 @@ ________________________________________________________________________________
 
 ## 18 July: Concatenating data (continued), 2023 data available, poster
 
-### Problem with 2020 and 2021 data being in different formats than 2018 and 2019 data
-Starting from 2020, for some reason the columns of the data are structured differently. 
+### Problem with data being structured differently
+For whatever reason, some data files have columns that are in the wrong format
 
 Instead of:
 * "Date/Time" --> date & time
