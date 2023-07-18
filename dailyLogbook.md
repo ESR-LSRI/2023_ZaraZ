@@ -3,18 +3,42 @@
 
 ___________________________________________________________________________________________________________
 
+## 18 July: Concatenating data (continued), 2023 data available, poster
+
+### Problem with data being structured differently
+For whatever reason, some data files have columns that are in the wrong format
+
+Instead of:
+* "Date/Time" --> date & time
+* "Unit" --> Celsius all the way dowwn
+* "Value" --> temperature
+
+We have:
+* "Date/Time" --> date
+* "Unit" --> time
+* "Value" --> Celsius
+* blank --> temperature
+
+### To-Do
+* read in and sort 2022 data files
+* **separate piece of code to combine the date and time columns using pandas** (for 2020, 2021, 2022)
+* sort revised data files into site directories
+* push new directories to group repositories
+
+___________________________________________________________________________________________________________
+
 ## 17 July: Concatenating data (continued), plotting
 
 ### Problem with 2019 sensors 9 and 10 (site 5 west slope vs ridge)
 2019 sensors 9 and 10 were given the same lat/long in the logbook with no additional site description, making it difficult to find which one was at west slope and which one at top ridge. The only way to distinguish them would be by looking at the data itself.
 
 I decided to **graph the west slope and top ridge sensors from 2018** to find any patterns that might be comparable to 2019 sensors 9 and 10. Here's what I got:
-* West Slope: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5west_buried.png)
-* Top Ridge: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5ridge_buried.png)
+* West Slope: ![image](./figures/2018_5west_buried.png)
+* Top Ridge: ![image](./figures/2018_5ridge_buried.png)
 
-As Dr. Town predicted, **the snow cover at top ridge went away much earlier than that at west slope**. With this information, I can graph 2019 sensors 9 and 10 in the same way and **pretty safely assume that the one with earlier snowmelt was the one at top ridge**.
-* 2019 sensor 9: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_9.png)
-* 2019 sensor 10: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_10.png)
+As Dr. Town predicted, **the snow cover at top ridge went away much [earlier] than that at west slope**. With this information, I can graph 2019 sensors 9 and 10 in the same way and **pretty safely assume that the one with earlier snowmelt was the one at top [ridge]**.
+* 2019 sensor 9: ![image](./figures/2019_mystery_9.png)
+* 2019 sensor 10: ![image](./figures/2019_mystery_10.png)
 
 Since snow cover as indirectly measured by 2019 sensor 10 went away much earlier than that by sensor 9, I'm going to conclude that **sensor 9 was at west slope and sensor 10 was at top ridge**.
 
@@ -30,13 +54,15 @@ Now we are able to concatenate their data to the right dataframes.
 ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_1_buried.png)
 
 ### Concatenating data
-* working to create folders for each site so code can simply loop through the folder, push to group member directories
-  * site#_type_dimension format
+* ~working to create folders for each site so code can simply loop through the folder~ **done, and pushed to teammates' directories :)**
 * **next step: concatenate data for site 1 buried**
 
 ### 2023 data
-* java and OneWire are set up, 2023 data are ready to be read into csv files
+* [java] and OneWire are set up, 2023 data are ready to be read into csv files
 
+[earlier]: # (Ok, well I have filled my quota for being right this month. Now on to you to be right!!!)
+[java]: # (wow. thank you.)
+[ridge]: # (can you use relative path names for images? this way I can see the plots on my end.)
 ___________________________________________________________________________________________________________
 
 ## 14 July: Concatenating data, identifying relevant sensors for snow extent
