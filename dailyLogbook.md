@@ -3,6 +3,23 @@
 
 ___________________________________________________________________________________________________________
 
+## 18 July: Concatenating data (continued), 2023 data available, poster
+
+### Problem with 2020 and 2021 data being in different formats than 2018 and 2019 data
+Starting from 2020, for some reason the columns of the data are structured differently. 
+Instead of:
+* "Date/Time" --> date & time
+* "Unit" --> Celsius all the way dowwn
+* "Value" --> temperature
+We have:
+* "Date/Time" --> date
+* "Unit" --> time
+* "Value" --> Celsius
+* blank --> temperature
+**Currently working on a separate piece of code to combine the date and time columns using pandas**
+
+___________________________________________________________________________________________________________
+
 ## 17 July: Concatenating data (continued), plotting
 
 ### Problem with 2019 sensors 9 and 10 (site 5 west slope vs ridge)
