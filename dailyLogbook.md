@@ -20,7 +20,8 @@ We have:
 * blank --> temperature
 
 ### To-Do
-* **separate piece of code to combine the date and time columns using pandas**
+* read in and sort 2022 data files
+* **separate piece of code to combine the date and time columns using pandas** (for 2020, 2021, 2022)
 * sort revised data files into site directories
 * push new directories to group repositories
 
