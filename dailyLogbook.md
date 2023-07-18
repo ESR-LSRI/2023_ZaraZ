@@ -12,7 +12,7 @@ I decided to **graph the west slope and top ridge sensors from 2018** to find an
 * West Slope: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5west_buried.png)
 * Top Ridge: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2018_5ridge_buried.png)
 
-As Dr. Town predicted, **the snow cover at top ridge went away much earlier than that at west slope**. With this information, I can graph 2019 sensors 9 and 10 in the same way and **pretty safely assume that the one with earlier snowmelt was the one at top ridge**.
+As Dr. Town predicted, **the snow cover at top ridge went away much [earlier] than that at west slope**. With this information, I can graph 2019 sensors 9 and 10 in the same way and **pretty safely assume that the one with earlier snowmelt was the one at top ridge**.
 * 2019 sensor 9: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_9.png)
 * 2019 sensor 10: ![image](https://github.com/ESR-LSRI/2023_ZaraZ/blob/main/figures/2019_mystery_10.png)
 
@@ -34,7 +34,10 @@ Now we are able to concatenate their data to the right dataframes.
 * **next step: concatenate data for site 1 buried**
 
 ### 2023 data
-* java and OneWire are set up, 2023 data are ready to be read into csv files
+* [java] and OneWire are set up, 2023 data are ready to be read into csv files
+
+[earlier]: # (Ok, well I have filled my quota for being right this month. Now on to you to be right!!!)
+[java]: # (wow. thank you.)
 
 ___________________________________________________________________________________________________________
 
