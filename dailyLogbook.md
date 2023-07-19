@@ -26,6 +26,7 @@ For whatever reason, some data files have columns that are in the wrong format, 
 ### To-Do
 * concatenating all the data from buried sensors
 * generate 5-year span graphs
+* push organized pkl files to teammates' repositories
 
 ___________________________________________________________________________________________________________
 
