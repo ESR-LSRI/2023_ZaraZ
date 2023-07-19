@@ -3,29 +3,26 @@
 
 ___________________________________________________________________________________________________________
 
-## 18 July: Data wrangling
+## 18 July: Data wrangling, pkl files
 
 ### Problem with data being structured differently
-For whatever reason, some data files have columns that are in the wrong format
+For whatever reason, some data files have columns that are in the wrong format, with "Date/Time" for date, "Unit" for time, "Value" for Celsius (irrelevant), and no index for temperature. This was the root of 95% of errors in data_file_to_pkl.py (in repository)
 
-Instead of:
-* "Date/Time" --> date & time
-* "Unit" --> Celsius all the way dowwn
-* "Value" --> temperature
-
-We have:
-* "Date/Time" --> date
-* "Unit" --> time
-* "Value" --> Celsius
-* blank --> temperature
-
-**I have identified the problem files, restructured the columns, and stripped them down to just the necessary data via pandas**. Code is named "restructureData.py" in my repository.
-
-**next steps: save files as .pkl, organize into correpsonding site directories**
+**process:**
+* simply renaming the indices was unsuccessful because there were numerous errors that essentially all complained about replacing 3 indices with 4.
+  * solved by resetting the indices completely and applying 4 new indices "Date", "ts", "Value", and "Temp" before combining and dropping any columns
+* all the different-header-value-for-different-files were just side effects from pandas being confused by 3 indices with 4 columns of data and thinking the date column is the name of the row
+* same with 'OutOfBounds nanosecond timestamp' error, which is likely pandas trying to convert just the "ts" column into datetime after thinking "Date" is the name of the row
+  * **next step (if time): remove obsolete error work-arounds/safeguards**, such as `errors = "coerce"`
+* instead of detecting whether there are 3 or 4 columns of data after putting them into dataframes, it was read directly from the original csv files instead.
+  * the data files were then processed differently depending on the number of columns, due to the extra renaming step if there were 4
+* code ignores the first 14 rows of the data file, which contain info about the sensor that is not part of the data
+* some kind of unicode error that occured occasionally, haven't figured out wh)t's causing it
+* **IMPORTANT: all data files were stripped to just the necessary (a 'datetime' index and a 'Value" temperature column) and packed into pkl files to retain the dataframe structure (and be easily read back in) for later use**
 
 ### To-Do
-* save cleaned dataframes as pkl files
-* push to group member's directories?
+* concatenating all the data from buried sensors
+* generate 5-year span graphs
 
 ___________________________________________________________________________________________________________
 
