@@ -6,7 +6,7 @@ ________________________________________________________________________________
 ## 18 July: Data wrangling, pkl files
 
 ### Problem with data being structured differently
-For whatever reason, some data files have columns that are in the wrong format, with "Date/Time" for date, "Unit" for time, "Value" for Celsius (irrelevant), and no index for temperature. This was the root of 95% of errors in data_file_to_pkl.py (in repository)
+For whatever reason, some data files have columns that are in the wrong format, with "Date/Time" for date, "Unit" for time, "Value" for Celsius (irrelevant), and no index for temperature. This was the root of 95% of errors in [data_file_to_pkl.py](./data_file_to_pkl.py)
 
 **process:**
 * simply renaming the indices was unsuccessful because there were numerous errors that essentially all complained about replacing 3 indices with 4.
