@@ -4,14 +4,17 @@ ________________________________________________________________________________
 
 ## 19 July: 2022-2023 data!
 
-### processing the new data
-* all 2022-2023 sensors were successfully saved in csv files (**see my [MtBakerData](./MtBakerData) directory)**
-  * **next step: sort into corresponding site directories**
-  * **next step: prepare the data and pack into pkl files**
-  * other notes:
-    * iButton 8 — battery died
-    * iButton 12 from 2021 retrieved
+**All 2022-2023 sensors were successfully saved in csv files (see my [MtBakerData](./MtBakerData) directory)**
+* packed into .pkl files, both .csv and .pkl versions sorted into site directories and pushed to team's repositories
+* other notes:
+  * iButton 8 — battery died
+  * iButton 12 from 2021 retrieved
 * all 2023 logbook information were recorded and added to iButton tables
+
+### processing 2022-2023 csv files
+For whatever reason, the time (incorrectly labeled as the "Unit") column contains weird (non-alphanumeric) characters, which prevented them from being converted to datetime format.
+* solved by using pandas to find the characters and removing them.
+* otherwise the process went similar to 2021-2022 files --> both batches had misnamed columns
 
 ### 2023-2024 logbook anomalies
 * iButtons 2-7 (site 1) — site instructions called for 5 tree (exposed) and 1 tree (shaded), but all 6 were tree (exposed) at completely different heights than any other year, and there was no tree (shaded) sensor installed
