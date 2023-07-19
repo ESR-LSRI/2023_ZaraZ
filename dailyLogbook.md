@@ -18,7 +18,10 @@ For whatever reason, some data files have columns that are in the wrong format, 
   * the data files were then processed differently depending on the number of columns, due to the extra renaming step if there were 4
 * code ignores the first 14 rows of the data file, which contain info about the sensor that is not part of the data
 * some kind of unicode error that occured occasionally, haven't figured out wh)t's causing it
-* **IMPORTANT: all data files were stripped to just the necessary (a 'datetime' index and a 'Value" temperature column) and packed into pkl files to retain the dataframe structure (and be easily read back in) for later use**
+
+**IMPORTANT: all data files were stripped to just the necessary (a 'datetime' index and a 'Value" temperature column) and packed into pkl files to retain the dataframe structure (and be easily read back in) for later use**
+
+**pkl files have been sorted into directories by site (exactly like the original files) for easier concatenation and ready to be shared with teammates**
 
 ### To-Do
 * concatenating all the data from buried sensors
