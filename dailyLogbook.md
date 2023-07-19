@@ -14,6 +14,7 @@ ________________________________________________________________________________
 * all 2023 logbook information were recorded and added to iButton tables
 
 ### 2023-2024 logbook anomalies
+* iButtons 2-7 (site 1) — site instructions called for 5 tree (exposed) and 1 tree (shaded), but all 6 were tree (exposed) at completely different heights than any other year, and there was no tree (shaded) sensor installed
 * iButton 11 (site 3) — logged as tree (exposed) but site instructions called for tree (shaded);
 * iButtons 13, 14, 15 (site 5) — location recorded as 48 44 11 N 121 50 29 W, but was 48 44 1 N 121 50 29 W for every other year
 * iButton 18 (site 9) — there was no site 9 from any other year; only location info is “crater rim”, no installation data, no GPS
