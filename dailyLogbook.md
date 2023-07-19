@@ -4,12 +4,14 @@ ________________________________________________________________________________
 
 ## 19 July: 2022-2023 data!
 
-### all 2022-2023 sensors were successfully saved in csv files
-* Sorted into respective site directories
-* **next step: prepare the data and pack into pkl files**
-* other notes:
-  * iButton 8 —  battery died
-  * iButton 12 from 2021 retrieved
+### processing the new data
+* all 2022-2023 sensors were successfully saved in csv files
+  * **next step: sort into corresponding site directories**
+  * **next step: prepare the data and pack into pkl files**
+  * other notes:
+    * iButton 8 —  battery died
+    * iButton 12 from 2021 retrieved
+* all 2023 logbook information were recorded and added to iButton tables
 
 ### 2023-2024 logbook anomalies
 * iButton 11 (site 3) — logged as tree (exposed) but site instructions called for tree (shaded);
