@@ -5,11 +5,11 @@ ________________________________________________________________________________
 ## 19 July: 2022-2023 data!
 
 ### processing the new data
-* all 2022-2023 sensors were successfully saved in csv files
+* all 2022-2023 sensors were successfully saved in csv files (**see my [MtBakerData](./MtBakerData) directory)**
   * **next step: sort into corresponding site directories**
   * **next step: prepare the data and pack into pkl files**
   * other notes:
-    * iButton 8 —  battery died
+    * iButton 8 — battery died
     * iButton 12 from 2021 retrieved
 * all 2023 logbook information were recorded and added to iButton tables
 
