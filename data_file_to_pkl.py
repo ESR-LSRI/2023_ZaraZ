@@ -9,11 +9,14 @@ import os
 import csv
 import pandas as pd
 
-directory = "G:/My Drive/School/LSRI/2023_ZaraZ/data/restructure1"
+directory = "G:/My Drive/School/LSRI/2023_ZaraZ/data/[insert folder containing csv data files here]"
 os.chdir("G:/My Drive/School/LSRI/2023_ZaraZ/data/pkl")
 
 # Get all CSV files in the directory
 csv_files = [file for file in os.listdir(directory) if file.endswith(".csv")]
+
+# Bad characters list (specific to 2022-2023)
+bad_chars = ['â', '€', '¯', '']
 
 # Loop through each CSV file
 for file_name in csv_files:
@@ -22,6 +25,7 @@ for file_name in csv_files:
     with open(file_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
         lines = list(csv_reader)
+        
         
         if len(lines) >= 16:
             num_columns = len(lines[15]) # Line numbers are 0-based
@@ -43,6 +47,16 @@ for file_name in csv_files:
                 columnsNew = ["Date", "ts", "Unit", "Value"]
                 dictColumns = dict(zip(columnsOld, columnsNew))
                 df = df.rename(columns = dictColumns)
+                
+                # HERE FOR TIME BAD_CHAR ISSUES
+                bad_char_occurrences = df["ts"].apply(lambda x: any(char in x for char in bad_chars))
+                
+                if bad_char_occurrences.any():
+                    df["ts"] = df["ts"].apply(lambda x: ''.join(char for char in x if char not in bad_chars))
+                    #print(df["ts"])
+                
+                #print(df)
+                # --------- 
             
                 # combine the columns
                 df['Date/Time'] = df['Date'] + df['ts']
