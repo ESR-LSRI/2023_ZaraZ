@@ -11,7 +11,7 @@ ________________________________________________________________________________
   * iButton 8 —  battery died
   * iButton 12 from 2021 retrieved
 
-**2023-2024 logbook anomalies**
+### 2023-2024 logbook anomalies
 * iButton 11 (site 3) — logged as tree (exposed) but site instructions called for tree (shaded);
 * iButtons 13, 14, 15 (site 5) — location recorded as 48 44 11 N 121 50 29 W, but was 48 44 1 N 121 50 29 W for every other year
 * iButton 18 (site 9) — there was no site 9 from any other year; only location info is “crater rim”, no installation data, no GPS
