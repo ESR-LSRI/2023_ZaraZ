@@ -3,7 +3,7 @@
 
 ___________________________________________________________________________________________________________
 
-## 18 July: Concatenating data (continued), 2023 data available, poster
+## 18 July: Data wrangling
 
 ### Problem with data being structured differently
 For whatever reason, some data files have columns that are in the wrong format
@@ -19,11 +19,13 @@ We have:
 * "Value" --> Celsius
 * blank --> temperature
 
+**I have identified the problem files, restructured the columns, and stripped them down to just the necessary data via pandas**. Code is named "restructureData.py" in my repository.
+
+**next steps: save files as .pkl, organize into correpsonding site directories**
+
 ### To-Do
-* read in and sort 2022 data files
-* **separate piece of code to combine the date and time columns using pandas** (for 2020, 2021, 2022)
-* sort revised data files into site directories
-* push new directories to group repositories
+* save cleaned dataframes as pkl files
+* push to group member's directories?
 
 ___________________________________________________________________________________________________________
 
