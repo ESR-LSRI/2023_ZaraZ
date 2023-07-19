@@ -1,5 +1,24 @@
 
 # Daily Logbook for Zara
+___________________________________________________________________________________________________________
+
+## 19 July: 2022-2023 data!
+
+### processing the new data
+* all 2022-2023 sensors were successfully saved in csv files (**see my [MtBakerData](./MtBakerData) directory)**
+  * **next step: sort into corresponding site directories**
+  * **next step: prepare the data and pack into pkl files**
+  * other notes:
+    * iButton 8 — battery died
+    * iButton 12 from 2021 retrieved
+* all 2023 logbook information were recorded and added to iButton tables
+
+### 2023-2024 logbook anomalies
+* iButtons 2-7 (site 1) — site instructions called for 5 tree (exposed) and 1 tree (shaded), but all 6 were tree (exposed) at completely different heights than any other year, and there was no tree (shaded) sensor installed
+* iButton 11 (site 3) — logged as tree (exposed) but site instructions called for tree (shaded);
+* iButtons 13, 14, 15 (site 5) — location recorded as 48 44 11 N 121 50 29 W, but was 48 44 1 N 121 50 29 W for every other year
+* iButton 18 (site 9) — only location info is “crater rim”, no installation data, no GPS. **can I assume lat/long from 2018 and 2019 logbooks by matching site number?**
+* iButton 20 (site 9) — only location info is “in the mount baker dox/dot at summit”, no installation data, no GPS. **can I assume lat/long from 2018 and 2019 logbooks by matching site number?**
 
 ___________________________________________________________________________________________________________
 
@@ -26,7 +45,8 @@ For whatever reason, some data files have columns that are in the wrong format, 
 ### To-Do
 * concatenating all the data from buried sensors
 * generate 5-year span graphs
-* push organized pkl files to teammates' repositories
+* ~push prepared pkl files to teammates' repositories~
+* share pkl unpacking code with teammates
 
 ___________________________________________________________________________________________________________
 
