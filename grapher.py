@@ -22,6 +22,11 @@ sites = [file for file in os.listdir(directory) if file.endswith(".pkl")]
 #plt.title(site)
 
 plt.figure()
+plt.title('Snow Cover Duration by Elevation, 2018-2023')
+plt.xlabel('Year')
+plt.ylabel('Elevation (m)')
+plt.ylim(800, 2200)
+
 for site in sites:
     file_path = os.path.join(directory, site)
     with open(file_path, 'rb') as f:
@@ -31,11 +36,7 @@ for site in sites:
         elevation = int(site[-8:-4]) # gets elevation from file name 
         elevation_plot = [elevation] * len(snow_cover.index)
         #print(snow_cover.index)
-        plt.scatter(snow_cover.index, elevation_plot, color = "mediumslateblue")
-
-plt.xlabel('Time')
-plt.ylabel('Elevation (m)')
-plt.ylim(800, 2200)
+        plt.scatter(snow_cover.index, elevation_plot, color = '#528AAE', s=2)
 
 #print(df)    
 
