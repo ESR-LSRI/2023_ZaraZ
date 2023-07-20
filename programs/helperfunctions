@@ -1,0 +1,29 @@
+def check(list1: list) -> bool:
+    
+    for num in list1:
+        
+        if not (-0.5 < num < 0.5):
+            
+            return False
+    
+    return True
+
+def whenBuried(values: list, dates: list) -> list:
+    
+    prevDate = dates[0]
+    dayData = []
+    toReturn = []
+    
+    for ind, date in enumerate(dates):
+
+        if date != prevDate:
+            #check(): func to see if a sensor is buried based on list of day data
+            if (check(dayData)):
+                    toReturn.append(prevDate)
+            prevDate = date
+            dayData.clear()
+        
+        else:
+            dayData.append(values[ind])
+            
+    return toReturn
