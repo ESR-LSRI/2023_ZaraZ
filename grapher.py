@@ -22,9 +22,9 @@ sites = [file for file in os.listdir(directory) if file.endswith(".pkl")]
 #plt.title(site)
 
 plt.figure()
-plt.title('Snow Cover Duration by Elevation, 2018-2023')
-plt.xlabel('Year')
-plt.ylabel('Elevation (m)')
+plt.title('Snow Cover Duration by Elevation, 2018-2023', fontsize=18)
+plt.xlabel('Year', fontsize=15)
+plt.ylabel('Elevation (m)', fontsize=15)
 plt.ylim(800, 2200)
 
 for site in sites:

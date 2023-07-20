@@ -37,9 +37,9 @@ year_color = {
 
 
 plt.figure()
-plt.title('Snow Cover Duration by Elevation, 2018-2023')
-plt.xlabel('# of days with snow cover')
-plt.ylabel('Elevation (m)')
+plt.title('Snow Cover Duration by Elevation, 2018-2023', fontsize=18)
+plt.xlabel('# of days with snow cover', fontsize=15)
+plt.ylabel('Elevation (m)', fontsize=15)
 plt.xlim(0, 365)
 plt.ylim(800, 2200)
 
