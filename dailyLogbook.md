@@ -4,6 +4,17 @@ ________________________________________________________________________________
 
 ## 19 July: 2022-2023 data!
 
+### deriving graphs
+intermediary steps:
+* plotted concatenated data by site
+* scatter plot of dates when value(temp) = 0
+* multi-series scatter plot of different sites
+* multi-series scatter plot with elevation
+  * for elevation, I used caltopo.com and GPS data from 2019 (I could have found elevation with GPS data from 2019 and 2021 averaged, as they were in slightly different formats, but 2021 lacked a location for site 7 so I stuck to 2019 for consistency's sake. The elevations derived from the two years were never more than 20 feet apart anyway)
+  * I named the data files for different sites with the site number as well as the elevation, so I can strip the elevation from the name of the file in my code
+
+* **next steps: consider adding to concatenator.py the ability to name .pkl files with their elevation based on site name**
+
 ### 2020 sensors 1 & 3 mix up solved
 * 2020 group logged iButton 1 as "buried" and iButton 3 as "tree (assumed shaded)". 2021 group reported retrieving iButton 3 in iButton 1's spot and vice versa. 
 * Data from the two sensors were initially organized into site directories according to 2020's installation data, although a note was made of 2021's collection notes.
