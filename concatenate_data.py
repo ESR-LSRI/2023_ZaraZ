@@ -5,14 +5,14 @@ import os as os
 
 # IMPORTANT: FILES ARE STRUCTURED DIFFERENTLY
 
-fileLoc = 'G:/My Drive/School/LSRI/2023_ZaraZ/data/restructure/2018-2019'
+fileLoc = 'G:/My Drive/School/LSRI/2023_ZaraZ/data/original/1_shaded'
 fileNames = os.listdir(fileLoc)
 # colNames = [c[:-4] for f in fileNames]
 os.chdir(fileLoc)
 
 file = fileNames[0]
 
-df = pd.read_csv(file, encoding="unicode_escape", header=14)
+df = pd.read_csv(file, encoding="unicode_escape", header=13)
 
 # create datetime variable, set as index
 df['datetime'] = pd.to_datetime(df['Date/Time'])
