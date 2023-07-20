@@ -4,6 +4,13 @@ ________________________________________________________________________________
 
 ## 19 July: 2022-2023 data!
 
+### deriving graphs
+intermediary steps:
+* plotted concatenated data by site
+* scatter plot of dates when value(temp) = 0
+* multi-series scatter plot of different sites
+* multi-series scatter plot with elevation
+* 
 ### 2020 sensors 1 & 3 mix up solved
 * 2020 group logged iButton 1 as "buried" and iButton 3 as "tree (assumed shaded)". 2021 group reported retrieving iButton 3 in iButton 1's spot and vice versa. 
 * Data from the two sensors were initially organized into site directories according to 2020's installation data, although a note was made of 2021's collection notes.
