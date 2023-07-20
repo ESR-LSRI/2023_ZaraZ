@@ -4,6 +4,18 @@ ________________________________________________________________________________
 
 ## 19 July: 2022-2023 data!
 
+### 2020 sensors 1 & 3 mix up solved
+* 2020 group logged iButton 1 as "buried" and iButton 3 as "tree (assumed shaded)". 2021 group reported retrieving iButton 3 in iButton 1's spot and vice versa. 
+* Data from the two sensors were initially organized into site directories according to 2020's installation data, although a note was made of 2021's collection notes.
+* When all data from site1_buried had been concatenated and graphed, it was clear that 2020 iButton 1 had been a mistake, as **there was no snow cover apparent**:
+![image](./figures/sensor_mixup.png).
+
+* however, **data from iButton 1 is very similar to tree(shaded) data from other years**. Take this example from tree(shaded) 2018-2019:
+![image](./figures/tree_shaded_example.png)
+
+From this, I concluded that **2020 iButton 1 is likely tree(shaded) and iButton 3 was buried**, matching 2021 group's collection notes.
+All relevant data files, tables, and concatenated frames have been updated.
+
 **All 2022-2023 sensors were successfully saved in csv files (see my [MtBakerData](./MtBakerData) directory)**
 * packed into .pkl files, both .csv and .pkl versions sorted into site directories and pushed to team's repositories
 * other notes:
