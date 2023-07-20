@@ -2,6 +2,15 @@
 # Daily Logbook for Zara
 ___________________________________________________________________________________________________________
 
+## 20 July: graphs
+
+**next steps: use individual data files (as opposed to concatenated ones) to find and quantify snow cover duration per site per year**
+
+**Q: what is the threshold for identifying snow cover? Should slight inaccuracies in the sensor be accounted for?** See difference in graph for Value = 0 vs. Value >= -1 && Value <= 1:
+![image](./figures/snow_cover/snow_cover_1.png)
+![image](./figures/snow_cover/value_threshold.png)
+___________________________________________________________________________________________________________
+
 ## 19 July: 2022-2023 data!
 
 ### deriving graphs
