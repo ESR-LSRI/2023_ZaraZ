@@ -21,14 +21,16 @@ data = []
 for file in pkl_files:
     file_path = os.path.join(directory, file)
     with open(file_path, 'rb') as f:
-        df = pickle.load(f)        
+        df = pickle.load(f)  
+        #print(df.index.dtype)
         data.append(df)
 
         # Concatenate all dataframes into one
-        frame = pd.concat(data, ignore_index=True)
+        frame = pd.concat(data)
+        frame.sort_index(inplace=True)
         
 os.chdir("G:/My Drive/School/LSRI/2023_ZaraZ/data/concatenated")
 frame_name = site + '.pkl'
 frame.to_pickle(frame_name) # save as .pkl (pickle) file
 
-print(frame) # for visual confirmation
+print(frame) # for visual confirmation'''
