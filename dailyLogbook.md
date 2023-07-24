@@ -4,8 +4,6 @@ ________________________________________________________________________________
 
 ## 20 July: completed snow cover duration graphs
 
-**next steps: use individual data files (as opposed to concatenated ones) to find and quantify snow cover duration per site per year**
-
 ### methods for identifying days with snow cover
 * my current method accounts only for near-zero temperatures and not for daily temperature variance, which means I inadvertently count the days where temperatures might be near freezing but there isn't snow cover
 * **next steps: employ Tanvi G.'s variance/standard deviation analysis to more accurate identify days with snow cover**
