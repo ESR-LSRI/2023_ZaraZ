@@ -13,6 +13,7 @@ ________________________________________________________________________________
 ### completed snow duration graphs
 ![image](./figures/snow_cover/dot_plot.png)
 ![image](./figures/snow_cover/snow_cover_plot.png)
+
 **Q: what is the threshold for identifying snow cover? Should slight inaccuracies in the sensor be accounted for?** See difference in graph for Value = 0 vs. Value >= -1 && Value <= 1:
 ![image](./figures/snow_cover/snow_cover_1.png)
 ![image](./figures/snow_cover/value_threshold.png)
