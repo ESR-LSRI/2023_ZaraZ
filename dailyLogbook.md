@@ -3,9 +3,19 @@
 
 ___________________________________________________________________________________________________________
 
-## 26 July: UW reflection
+## 26 July: snow season length vs snowfall amount, UW reflection
 
-### methods for identifying days with snow cover
+### snow season length vs snowfall amount
+rough steps:
+* define start and end of snow season
+* read in SNOTEL data
+* get season duration in number of days
+* get total snowfall via snow-water equivalent, take integral
+* plot for as many years as possible
+* generate trendline
+* apply slope to my and Noah's research
+
+### UW reflection
 * I talked to around five people, ranging from undergraduate to graduate level
 * one interesting question I got asked was, if I can change how the sensors are deployed, what would I change?
   * buried sensors often got lost because they are marked with orange tape, but some hikers mark their trash with the same tape
