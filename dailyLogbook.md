@@ -19,7 +19,10 @@ _r^2 of the NUMBER OF SNOW DAYS graph is higher than that of the SEASON LENGTH g
 
 **Marten Ridge shares surprising similarities with Schrieber's Meadow (within 30 ft in elevation apart and facing roughly the same aspect), making them excellent comparisons to each other.**
 
-Here's an estimate of peak snow water equivalent at Schrieber's Meadow based on the number of snow days (as derived from iButtons data, taking into account **both near-zero temperatures and low variance)**, using the SWE/ # snow day trendline from Marten Ridge. See the faint labeled y-values:
+Here's an estimate of peak snow water equivalent at Schrieber's Meadow based on the number of snow days (as derived from iButtons data, taking into account **both near-zero temperatures and low variance)**, using the SWE/ # snow day trendline from Marten Ridge. See the faint labeled y-values
+
+_data points for Marten Ridge are labeled with the END YEAR of the snow season, so the corresponding points for Schrieber's Meadow should be compared accordingly_
+
 ![image](./figures/snow/Schrieber_Marten_PeakSnowWaterEquivalent.png)
 
 ___________________________________________________________________________________________________________
