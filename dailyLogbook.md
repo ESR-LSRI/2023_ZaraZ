@@ -6,14 +6,12 @@ ________________________________________________________________________________
 ## 26 July: snow season length vs snowfall amount, UW reflection
 
 ### snow season length vs snowfall amount
-rough steps:
-* define start and end of snow season
-* read in SNOTEL data
-* get season duration in number of days
-* get total snowfall via snow-water equivalent, take integral
-* plot for as many years as possible
-* generate trendline
-* apply slope to my and Noah's research
+well this is not actually total snowfall because I just added up everything, but the SNOTEL graph is not a graph of the new precipitation of each day, but rather the cumulative snowfall/snowmelt of that day :)
+**# of snow days vs "snow amount"**
+![image](./figures/snow_days_vs_snow_amount.png)
+
+**length of snow season vs "snow amount"**
+![image](./figures/snow_season_length_vs_snow_amount.png)
 
 ### UW reflection
 * I talked to around five people, ranging from undergraduate to graduate level
