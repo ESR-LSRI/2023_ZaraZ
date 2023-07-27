@@ -6,7 +6,9 @@ ________________________________________________________________________________
 ## 26 July: snow season length vs snowfall amount, UW reflection
 
 ### snow season length vs snowfall amount
-well this is not actually total snowfall because I just added up everything, but the SNOTEL graph is not a graph of the new precipitation of each day, but rather the cumulative snowfall/snowmelt of that day :)
+well this is not actually total snowfall because I just added up everything, but the SNOTEL graph is not a graph of the new precipitation of each day, but rather the cumulative snowfall/snowmelt of that [day] :)
+
+[day]: # (great work on this. I am so impressed. Can you make the font a bit larger on everything?)
 
 **# of snow days vs "snow amount"**
 ![image](./figures/snow_days_vs_snow_amount.png)
