@@ -25,6 +25,9 @@ _data points for Marten Ridge are labeled with the END YEAR of the snow season, 
 
 ![image](./figures/snow/Schrieber_Marten_PeakSnowWaterEquivalent.png)
 
+### one small issue
+* SNOTEL 2023 data is not included because the data collection has not ended and empty data is represented wtih NaN, and I had trouble dealing with that in my code.
+
 ___________________________________________________________________________________________________________
 
 ## 26 July: snow season length vs snowfall amount, UW reflection
