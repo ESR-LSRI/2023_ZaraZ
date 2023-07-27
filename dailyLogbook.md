@@ -12,7 +12,7 @@ one measurement of snow is the peak snow water equivalent in a year (provided by
 ![image](./figures/snow/NumSnowDays_vs_MaxSnowAccumulation.png)
 
 **Peak snow water equivalent vs SEASON LENGTH**
-![image](./figures/snow/LenSeason_vs_MaxSnowAccumulation.png)
+![image](./figures/snow/LenSnowSeason_vs_MaxSnowAccumulation.png)
 
 ### Schrieber's Meadow estimate
 _r^2 of the NUMBER OF SNOW DAYS graph is higher than that of the SEASON LENGTH graph, so that was the one I used for estimating peak snow water equivalent at Schrieber's Meadow_
