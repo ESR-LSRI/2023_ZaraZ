@@ -3,6 +3,27 @@
 
 ___________________________________________________________________________________________________________
 
+## 27 July: snow days/season vs peak snow water equivalent at Marten Ridge, Schrieber's Meadow estimate
+
+### snow days/season vs peak snow water equivalent at Marten Ridge
+one measurement of snow is the peak snow water equivalent in a year (provided by SNOTEL). this is correlated with the number of snow days and the season length (defined here as number of days between first snowfall and snowmelt, inclusive), which are really just two slightly different measurements of how long it snowed for. Here's both of those graphs:
+
+**Peak snow water equivalent vs NUMBER OF SNOW DAYS**
+![image](./figures/NumSnowDays_vs_MaxSnowAccumulation.png)
+
+**Peak snow water equivalent vs SEASON LENGTH**
+![image](./figures/LenSeason_vs_MaxSnowAccumulation.png)
+
+### Schrieber's Meadow estimate
+_r^2 of the NUMBER OF SNOW DAYS graph is higher than that of the SEASON LENGTH graph, so that was the one I used for estimating peak snow water equivalent at Schrieber's Meadow_
+
+**Marten Ridge shares surprising similarities with Schrieber's Meadow (within 30 ft in elevation apart and facing roughly the same aspect), making them excellent comparisons to each other.**
+
+Here's an estimate of peak snow water equivalent at Schrieber's Meadow based on the number of snow days (as derived from iButtons data, taking into account **both near-zero temperatures and low variance)**, using the SWE/ # snow day trendline from Marten Ridge. See the faint labeled y-values:
+![image](./figures/Schrieber_Marten_PeakSnowWaterEquivalent.png)
+
+___________________________________________________________________________________________________________
+
 ## 26 July: snow season length vs snowfall amount, UW reflection
 
 ### snow season length vs snowfall amount
