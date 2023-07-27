@@ -1,5 +1,29 @@
 
 # Daily Logbook for Zara
+
+___________________________________________________________________________________________________________
+
+## 26 July: snow season length vs snowfall amount, UW reflection
+
+### snow season length vs snowfall amount
+rough steps:
+* define start and end of snow season
+* read in SNOTEL data
+* get season duration in number of days
+* get total snowfall via snow-water equivalent, take integral
+* plot for as many years as possible
+* generate trendline
+* apply slope to my and Noah's research
+
+### UW reflection
+* I talked to around five people, ranging from undergraduate to graduate level
+* one interesting question I got asked was, if I can change how the sensors are deployed, what would I change?
+  * buried sensors often got lost because they are marked with orange tape, but some hikers mark their trash with the same tape
+  * tree (exposed) sensors are facing various directions which gets us inconsistent solar radiation data
+* one person suggested I compare my snow extent data to SNOWTEL (one of my observations was that 2018-19 might have been a lighter snow year)
+* another person suggested I put trendlines on my scatterplot to see if I can compare the slopes (snow day increase for elevation) between the years
+* I would like to try out both suggestions above, as well as implement the variance calculation that I didn't get to do beforehand
+
 ___________________________________________________________________________________________________________
 
 ## 20 July: completed snow cover duration graphs
@@ -15,7 +39,6 @@ ________________________________________________________________________________
 **Q: what is the threshold for identifying snow cover? Should slight inaccuracies in the sensor be accounted for?** See difference in graph for Value = 0 vs. Value >= -1 && Value <= 1:
 ![image](./figures/snow_cover/snow_cover_1.png)
 ![image](./figures/snow_cover/value_threshold.png)
-
 
 ___________________________________________________________________________________________________________
 
