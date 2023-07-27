@@ -7,6 +7,7 @@ ________________________________________________________________________________
 
 ### snow season length vs snowfall amount
 well this is not actually total snowfall because I just added up everything, but the SNOTEL graph is not a graph of the new precipitation of each day, but rather the cumulative snowfall/snowmelt of that day :)
+
 **# of snow days vs "snow amount"**
 ![image](./figures/snow_days_vs_snow_amount.png)
 
