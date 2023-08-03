@@ -9,9 +9,8 @@ Created on Wed Jul 26 10:22:28 2023
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn.metrics import r2_score
 
-directory = "G:/My Drive/School/LSRI/2023_ZaraZ/data/SNOTEL/Marten_Ridge_snowwater.csv"
+directory = "H:/My Drive/School/LSRI/2023_ZaraZ/data/SNOTEL/Marten_Ridge_snowwater.csv"
 unneeded_columns = ["Min","10%","30%","70%","90%","Max","Median ('91-'20)","Median (POR)","Median Peak SWE"]
 unneeded_columns_set = set(unneeded_columns)
 

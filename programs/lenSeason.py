@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-directory = "G:/My Drive/School/LSRI/2023_ZaraZ/data/SNOTEL/Marten_Ridge_snowwater.csv"
+directory = "H:/My Drive/School/LSRI/2023_ZaraZ/data/SNOTEL/Marten_Ridge_snowwater.csv"
 unneeded_columns = ["Min","10%","30%","70%","90%","Max","Median ('91-'20)","Median (POR)","Median Peak SWE"]
 unneeded_columns_set = set(unneeded_columns)
 

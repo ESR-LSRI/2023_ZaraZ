@@ -1,36 +1,55 @@
-# -*- coding: utf-8 -*-
 """
-Created on Wed Jul 19 13:05:54 2023
+PROGRAM TO CONCATENATE PICKLED IBUTTON DATA FILES
+_________________________________________________________________________
 
-@author: Zara
+At the time of writing this code, I wanted to concatenate the data files
+by Mt. Baker sites, such as 'site 1 buried' (folder: 1_buried) or
+'site 5 west buried' (folder: 5west_buried)
+
+So this code is adapted to this particular format:
+C:/.../[my repository]/data/[folders by Mt.Baker site name]/[.pkl files]
+
+All the basic code for concatenating files is in here. 
+Some modifications might need to be made to adapt to different file path.
+_________________________________________________________________________
+
+@author: Zara Z. '24
 """
 
-# imports
 import pickle
 import pandas as pd
-import os as os
+import os
 
-path = "G:/My Drive/School/LSRI/2023_ZaraZ/data/pkl/" # add data file path here
-site = input("Site: ")
-directory = path + site
-pkl_files = [file for file in os.listdir(directory) if file.endswith(".pkl")]
+# Directory information
+DATA_PATH = ""  # File path to iButton data folder
 
-data = []
+def concatenate(site_directory):
+    pkl_files = [file for file in os.listdir(site_directory) if file.endswith(".pkl")]
 
-# loop through files in site directory
-for file in pkl_files:
-    file_path = os.path.join(directory, file)
-    with open(file_path, 'rb') as f:
-        df = pickle.load(f)  
-        #print(df.index.dtype)
-        data.append(df)
+    # Loop through site folder, concatenate all files
+    data = []
+    for file in pkl_files:
+        file_path = os.path.join(site_directory, file)
+        with open(file_path, 'rb') as f:
+            df = pickle.load(f)  # Loads the pickle file as a dataframe
+            data.append(df)
 
-        # Concatenate all dataframes into one
-        frame = pd.concat(data)
-        frame.sort_index(inplace=True)
-        
-os.chdir("G:/My Drive/School/LSRI/2023_ZaraZ/data/concatenated")
-frame_name = site + '.pkl'
-frame.to_pickle(frame_name) # save as .pkl (pickle) file
+    concatenated_data = pd.concat(data)
+    concatenated_data.sort_index(inplace=True)  # Sort by datetime index
+    return concatenated_data
 
-print(frame) # for visual confirmation'''
+def main():
+    # Site name (e.g. '1_buried', '5west_buried')
+    site = input("Site: ")
+    site_directory = os.path.join(DATA_PATH, site)
+
+    # Load and concatenate data
+    concatenated_data = concatenate(site_directory)
+
+    # Save as a new pickle file
+    os.chdir("")  # Enter the file path you wish to save to
+    concatenated_data_name = site + '.pkl'  # File name format 1_buried.pkl, 5west_buried.pkl
+    concatenated_data.to_pickle(concatenated_data_name)
+
+if __name__ == "__main__":
+    main()

@@ -61,14 +61,22 @@ for folder in os.listdir(directory):
                 with open(file_path, 'rb') as f:
                     # Load the .pkl file into a DataFrame and append to the list
                     df = pickle.load(f)
-                    snow_cover = df[(df['Value'] >= -1) & (df['Value'] <= 1)]
+                    daily_mean_temp = df.resample('D').mean()
+                    daily_std_temp = df.resample('D').std()
+                    snow_cover = (
+                        (daily_mean_temp['Value'] >= -1) & 
+                        (daily_mean_temp['Value'] <= 1) & 
+                        (daily_std_temp['Value'] < 0.45)
+                    )
+                    
+                    snow_covered_dates = snow_cover.index[snow_cover]
                     
                     for year in year_color.keys():
                         if year in file:
                             color = year_color[year]
                             break 
                     #elevation_plot = [elevation] * len(snow_cover.index)
-                    plt.scatter(len(snow_cover)/(24/4.25), elevation, color = color)
+                    plt.scatter(len(snow_covered_dates), elevation, color = color)
 
 # colNames = [c[:-4] for f in fileNames]
 #os.chdir(fileLoc)

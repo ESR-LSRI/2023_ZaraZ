@@ -13,8 +13,8 @@ import os as os
 import pickle
 from sklearn.metrics import r2_score
 
-directory = "G:/My Drive/School/LSRI/2023_ZaraZ/data/SNOTEL/Marten_Ridge_snowwater.csv"
-myData = 'G:/My Drive/School/LSRI/2023_ZaraZ/data/pkl/1_buried'
+directory = "H:/My Drive/School/LSRI/2023_ZaraZ/data/SNOTEL/Marten_Ridge_snowwater.csv"
+myData = 'H:/My Drive/School/LSRI/2023_ZaraZ/data/pkl/1_buried'
 unneeded_columns = ["Min","10%","30%","70%","90%","Max","Median ('91-'20)","Median (POR)","Median Peak SWE"]
 unneeded_columns_set = set(unneeded_columns)
 
@@ -91,9 +91,9 @@ for site in sites:
 
 plt.xlabel('# of snow days')
 plt.xlim(0, 365)
-plt.ylabel('max accumulation (in.)')
+plt.ylabel('peak snow water equivalent (in.)')
 plt.ylim(0, 100)
-plt.title('# of Snow Days vs. Max Snow Accumulation (in snow water equivalent)')
+plt.title('# of Snow Days vs. Peak Snow Water Equivalent')
 plt.legend()
 for x, y, site in zip(x_values, y_values, sites):
     plt.annotate(f' y={y:.2f}', (x, y), xytext=(5, 0), textcoords='offset points', color='gray', fontsize=9)
