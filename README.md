@@ -26,7 +26,10 @@ The structure of my repository is as follows:
 * docs
   * poster_ASnowyStory.pdf: poster presenting my research on snow duration
 * figures: a large variety of different visualizations from iButton and SNOTEL data
-* programs: a large variety of python programs for data analysis and visualization
+* programs: a large [variety] of python programs for data analysis and visualization
+
+[variety]: # (can you make a list of important code here?)
+
 * dailyLogbook.md: logbook detailing my daily work during LSRI
 
 ### Additional Info
