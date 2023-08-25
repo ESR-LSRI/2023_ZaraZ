@@ -17,9 +17,9 @@ The structure of my repository is as follows:
       * MartenRidge_SnowDepth_2018-2023.pkl: curated SNOTEL data containing only snow depth, concatenated across 2018-2023, pickled.
     * Marten_Ridge_snowwater.csv: SNOTEL snow water equivalence (SWE) data for Marten Ridge
     * snowwater_cut.csv: Marten_Ridge_snowwater.csv with only columns for each year
-  * SnowDensity
-    * MartenRidge_SWE_2018-2023.pkl: curated SNOTEL data containing only SWE, concatenated across 2018-2023, pickled
-    * MartenRidge_SnowDepth_2018-2023.pkl: curated SNOTEL data containing only snow depth, concatenated across 2018-2023, pickled (duplicate from ./data/SNOTEL/SnowDepth)
+    * SnowDensity
+      * MartenRidge_SWE_2018-2023.pkl: curated SNOTEL data containing only SWE, concatenated across 2018-2023, pickled
+      * MartenRidge_SnowDepth_2018-2023.pkl: curated SNOTEL data containing only snow depth, concatenated across 2018-2023, pickled (duplicate from ./data/SNOTEL/SnowDepth)
   * original: original iButton data in csv format, organized by site and installation method
   * pkl: curated iButton data containing only datetime data and temperature readings, organized by site and installation method, pickled
   * snow_cover: curated iButton data for buried iButtons only, concatenated by site
